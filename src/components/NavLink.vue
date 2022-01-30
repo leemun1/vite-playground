@@ -12,7 +12,7 @@ defineProps({
 </script>
 
 <template>
-  <router-link :to="path" class="pb-2">{{ name }}</router-link>
+  <router-link :to="path" class="pl-1 pt-2">{{ name }}</router-link>
 </template>
 
 <style scoped></style>
