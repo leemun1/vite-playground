@@ -1,13 +1,11 @@
 <script setup>
-defineProps({
-  msg: String,
-});
+import NavLink from './NavLink.vue';
 </script>
 
 <template>
-  <div class="w-60 bg-slate-200 flex flex-col">
-    <router-link to="/">Go to Home</router-link>
-    <router-link to="/about">Go to About</router-link>
+  <div class="w-60 bg-slate-200 flex flex-col p-4">
+    <NavLink path="/" name="Home" />
+    <NavLink path="/companies" name="Companies" />
   </div>
 </template>
 
